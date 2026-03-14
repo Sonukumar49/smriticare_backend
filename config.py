@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://mahesh1001:mahesh%401001@cluster0.pcb24.mongodb.net/")
+MONGO_URI = os.getenv("MONGO_URI", "")
 DB_NAME = os.getenv("DB_NAME", "SmritiCare")
 
 JWT_SECRET = os.getenv("JWT_SECRET")
