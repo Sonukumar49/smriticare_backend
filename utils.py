@@ -18,7 +18,7 @@ def verify_password(password, hashed):
 
 # ---------------- JWT ----------------
 
-def create_token(data, minutes=60):
+def create_token(data, minutes=14400):
 
     payload = {
         "data": data,
